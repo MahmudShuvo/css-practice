@@ -1,0 +1,40 @@
+div{
+    height: 200px;
+    width:auto;
+    background-color: rgb(242, 247, 247);
+    margin: 15px;
+    border: 4px dotted black;
+}
+#header{
+    height: 30px;
+    width: auto;
+    color: #0aea2f;
+    background-color: #123636;
+    a{
+        margin-right: 180px;
+        text-decoration: none;
+    }
+}
+
+button{
+    background-color: orange;
+}
+
+#logo{
+    color: orange;
+    text-decoration: none;
+}
+#contentArea{
+    height: 480px;
+    background-color: rgba(245, 222, 222,0.5);
+}
+
+#footer{
+    height: 30px;
+    background-color: rgba(102, 97, 97,0.5);
+}
+.contentbox{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}

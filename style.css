@@ -1,0 +1,208 @@
+*{
+    color: rgb(212, 0, 255);
+}
+
+
+h2{
+    color: rgb(19, 235, 19);
+}
+
+p{
+    color: rgb(34, 126, 163);
+}
+button{
+    color: maroon;
+    background-color: rgb(239, 18, 18);
+}
+
+body{
+    background-color: #f1f4f5;
+}
+#ABC{
+    color:rgb(225, 201, 16);
+}
+#ABC1{
+    color:rgb(173, 66, 16);
+}
+.ABC2{
+    color:rgb(211, 15, 15);
+}
+#box{
+    color: rgb(182, 135, 35);
+}
+.heading{
+    color: red;
+}
+#shuvo{
+    color: green;
+}
+#textAlign{
+    /* text-align: right; */
+    /* text-align: start; */
+    /* text-align: stop; */
+    text-align: center;
+}
+#textdecoration{
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: underline; */
+    /* a{
+        text-decoration: none;
+    } */
+    text-decoration: none;
+}
+a{
+    text-decoration: none; 
+}
+
+#Fw{
+    /* font-weight: bolder; */
+    font-weight: 100;
+    color:rgb(186, 35, 71);
+}
+
+#FwA{
+    /* font-weight: lighter; */
+    font-weight: 350;
+    color:rgb(32, 179, 37)
+}
+
+#FwB{
+    /* font-weight: normal; */
+    font-weight: 550;
+    color:rgb(3, 0, 0);
+}
+
+#FS1{
+    font-style: italic;
+    font-size: 25px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#FS2{
+    font-style:oblique;
+    font-size: 8px;
+    line-height: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+#FS3{
+    font-style:normal;
+    font-size: 50px;
+    line-height: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#practiceQuestion{
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+}
+#practiceQuestion1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+/* Level 2 starts here */
+
+#hw{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    /* border-color: rgb(6, 71, 6);
+    border-width: 10px;
+    border-style: double; */
+    border: 2px dotted black;
+    text-align: center;
+    border-radius: 15px;
+    /* border-radius: 50%; */
+    /* padding-left: 25px;
+    padding-top: 25px;
+    padding: 25px; */
+    padding: 25px 10px 25px 10px;
+    margin: 25px 25px 25px 25px;
+
+}
+
+#practice3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+#NavBar{
+    height: 60px;
+    color: #f1f4f5;
+    background-color: #0f1111;
+    
+}
+#but{
+    background-color: #f08804;
+}
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 150px;
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: #f08804;
+    font-size: 20px;
+}
+
+#box2{
+    height: 50px;
+    width: 50%;
+    background-color: aqua;
+    font-size: 0.5em;
+    width: 5em;
+}
+#BOX1{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: inline-block;
+    position: static;
+
+}
+#BOX2{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+
+}
+#BOX3{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+#BOX4{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: inline-block;
+    /* position: fixed; good for navbar/footer */
+    position: sticky;
+    bottom: 40px;
+    
+
+}
